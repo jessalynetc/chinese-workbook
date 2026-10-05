@@ -1,0 +1,13 @@
+# Environments and keys
+.env
+credentials.json
+token.json
+
+# Intermediate processing files
+.tmp/
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
+Thumbs.db

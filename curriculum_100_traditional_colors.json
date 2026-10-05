@@ -1,0 +1,87 @@
+{
+  "project": "Chinese Learning & Coloring Book System",
+  "version": "2.0.0",
+  "colorSource": "nevertoday/zhongguo-traditional-colors",
+  "units": [
+    {
+      "unit": 1,
+      "theme": "自然天地",
+      "subject": "晨光初照的太阳与云彩",
+      "characters": ["天", "地", "日", "月", "星", "云", "雨", "风"],
+      "traditionalColors": [
+        { "char": "天", "name": "月白", "hex": "#D6ECF0", "colorId": 424 },
+        { "char": "地", "name": "赭石", "hex": "#864B38", "colorId": 120 },
+        { "char": "日", "name": "朱红", "hex": "#E23E57", "colorId": 135 },
+        { "char": "月", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80 },
+        { "char": "星", "name": "秋葵黄", "hex": "#EED044", "colorId": 35 },
+        { "char": "云", "name": "乳白", "hex": "#F4F3ED", "colorId": 1 },
+        { "char": "雨", "name": "翠蓝", "hex": "#00939C", "colorId": 443 },
+        { "char": "风", "name": "碧青", "hex": "#5AB897", "colorId": 380 }
+      ]
+    },
+    {
+      "unit": 2,
+      "theme": "五行大自然",
+      "subject": "流水潺潺的高山森林",
+      "characters": ["金", "木", "水", "火", "土", "山", "石", "田"],
+      "traditionalColors": [
+        { "char": "金", "name": "秋葵黄", "hex": "#EED044", "colorId": 35 },
+        { "char": "木", "name": "荷叶绿", "hex": "#559B74", "colorId": 490 },
+        { "char": "水", "name": "翠蓝", "hex": "#00939C", "colorId": 443 },
+        { "char": "火", "name": "朱红", "hex": "#E23E57", "colorId": 135 },
+        { "char": "土", "name": "土黄", "hex": "#C59B51", "colorId": 95 },
+        { "char": "山", "name": "青黛", "hex": "#455E57", "colorId": 510 },
+        { "char": "石", "name": "石青", "hex": "#3A6988", "colorId": 460 },
+        { "char": "田", "name": "竹青", "hex": "#789262", "colorId": 480 }
+      ]
+    },
+    {
+      "unit": 3,
+      "theme": "草木萌动",
+      "subject": "春暖花开的花园草坪",
+      "characters": ["花", "草", "树", "叶", "竹", "果", "米", "春"],
+      "traditionalColors": [
+        { "char": "花", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188 },
+        { "char": "草", "name": "荷叶绿", "hex": "#559B74", "colorId": 490 },
+        { "char": "树", "name": "苍绿", "hex": "#4D634C", "colorId": 505 },
+        { "char": "叶", "name": "松柏绿", "hex": "#2F5D50", "colorId": 512 },
+        { "char": "竹", "name": "碧玉石", "hex": "#5CB495", "colorId": 395 },
+        { "char": "果", "name": "枣红", "hex": "#7C1823", "colorId": 244 },
+        { "char": "米", "name": "象牙白", "hex": "#FDFBF5", "colorId": 5 },
+        { "char": "春", "name": "柳绿", "hex": "#AFDD22", "colorId": 472 }
+      ]
+    },
+    {
+      "unit": 4,
+      "theme": "农场动物",
+      "subject": "草地上奔跑的小兔与小马",
+      "characters": ["马", "牛", "羊", "猫", "狗", "鸟", "鱼", "兔"],
+      "traditionalColors": [
+        { "char": "马", "name": "枣红", "hex": "#7C1823", "colorId": 244 },
+        { "char": "牛", "name": "墨褐", "hex": "#43342E", "colorId": 150 },
+        { "char": "羊", "name": "乳白", "hex": "#F4F3ED", "colorId": 1 },
+        { "char": "猫", "name": "秋葵黄", "hex": "#EED044", "colorId": 35 },
+        { "char": "狗", "name": "赭石", "hex": "#864B38", "colorId": 120 },
+        { "char": "鸟", "name": "翠蓝", "hex": "#00939C", "colorId": 443 },
+        { "char": "鱼", "name": "朱红", "hex": "#E23E57", "colorId": 135 },
+        { "char": "兔", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188 }
+      ]
+    },
+    {
+      "unit": 5,
+      "theme": "身体五官",
+      "subject": "可爱大脑袋与聪明五官",
+      "characters": ["头", "目", "耳", "口", "鼻", "手", "足", "心"],
+      "traditionalColors": [
+        { "char": "头", "name": "魏紫", "hex": "#704276", "colorId": 321 },
+        { "char": "目", "name": "黛黑", "hex": "#3B3D3B", "colorId": 740 },
+        { "char": "耳", "name": "肉粉", "hex": "#F6B3A8", "colorId": 210 },
+        { "char": "口", "name": "朱红", "hex": "#E23E57", "colorId": 135 },
+        { "char": "鼻", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80 },
+        { "char": "手", "name": "月白", "hex": "#D6ECF0", "colorId": 424 },
+        { "char": "足", "name": "青翠", "hex": "#00A887", "colorId": 435 },
+        { "char": "心", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188 }
+      ]
+    }
+  ]
+}
