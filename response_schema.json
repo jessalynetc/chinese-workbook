@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChineseLearningBookPageOutput",
+  "description": "Strict response schema for Gemini 1.5 Pro / Flash structured generation of Chinese learning book pages.",
+  "type": "object",
+  "properties": {
+    "pageType": {
+      "type": "string",
+      "enum": ["cbn_coloring", "wb_metaphor", "wb_maze", "wb_tracing", "wb_matching"],
+      "description": "The category of activity page being generated."
+    },
+    "unitId": {
+      "type": "integer",
+      "description": "Curriculum unit number (1-14)."
+    },
+    "title": {
+      "type": "string",
+      "description": "Page headline in Chinese, e.g. 晨光初照的太阳与云彩."
+    },
+    "theme": {
+      "type": "string",
+      "description": "Unit pedagogical theme, e.g. 自然天地."
+    },
+    "targetCharacters": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of target Chinese characters taught on this page."
+    },
+    "masterSvg": {
+      "type": "string",
+      "description": "Complete, valid, standalone SVG document (viewBox 0 0 612 792, US Letter) meeting Simple Chunky specifications."
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "closedRegionsCount": {
+          "type": "integer",
+          "description": "Number of closed colorable regions (must be 25-45 for CBN)."
+        },
+        "colorPalette": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "char": { "type": "string" },
+              "colorName": { "type": "string" },
+              "hex": { "type": "string" },
+              "culturalNote": { "type": "string" }
+            },
+            "required": ["char", "colorName", "hex"]
+          },
+          "description": "Traditional color mapping used in the legend."
+        },
+        "safetyMarginsCheck": {
+          "type": "boolean",
+          "description": "True if drawing content stays within US Letter print-safe boundary (margin >= 36pt)."
+        },
+        "visualMetaphorExplanation": {
+          "type": "string",
+          "description": "Pedagogical rationale explaining how the visual drawing anchors to the character glyph skeleton."
+        }
+      },
+      "required": ["closedRegionsCount", "safetyMarginsCheck"]
+    }
+  },
+  "required": ["pageType", "masterSvg", "metadata"]
+}

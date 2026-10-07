@@ -6,12 +6,19 @@
 ## 2. 核心约束 (骨架感知法则)
 - 严禁画成脱离汉字结构的普通实物；
 - 必须将汉字的核心笔画或偏旁作为画面的结构主线（例如：“木”字中间一竖是一根粗树干，上面一横与撇捺是舒展的树枝；“鱼”字上面是鱼头，中间田字是鱼身鱼鳞，下面一横或四点是鱼尾）；
-- 风格：扁平大色块、圆润粗线条（Simple Chunky 规范）。
+- 风格：扁平大色块、圆润粗线条（Simple Chunky 规范，画布尺寸 400 × 400 pt）。
 
 ## 3. 执行工具
-`execution/pictogram_engine.py`
-- 参数：`--char [中文字]`
+`python3 execution/pictogram_engine.py --char [中文字]`
+- 可选参数：
+  - `--output [目录]` (默认 `output/pictograms`)
+  - `--mock` (强制离线模式，直接调用内置骨架引擎)
 - 步骤：
-  1. 向 Gemini 1.5 Pro 发送构字法与儿童拟物化 Prompt；
-  2. 获取单字象形 SVG；
-  3. 检验并保存至 `output/pictograms/`。
+  1. 读取 `.env` 中的 `GEMINI_API_KEY`；若离线或 `--mock` 则自动启用内置骨架感知引擎；
+  2. 检验 SVG 合法性；
+  3. 保存至 `output/pictograms/[中文字].svg`。
+
+## 4. 质量验收门禁 (QA Gates)
+- [ ] SVG 1.1 语法合法且自包含；
+- [ ] 笔画粗细在 4–12pt 之间，圆角线端；
+- [ ] 底部附带清晰规范的标准汉字卡标牌。

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" rx="24" fill="#F8FAF8"/>
+  <!-- Roots (撇捺延伸扎根) -->
+  <path d="M 200 280 Q 140 330 80 350" fill="none" stroke="#864B38" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 200 280 Q 260 330 320 350" fill="none" stroke="#864B38" stroke-width="12" stroke-linecap="round"/>
+  <!-- Trunk (中央立竖) -->
+  <rect x="186" y="110" width="28" height="200" rx="12" fill="#864B38" stroke="#43342E" stroke-width="5"/>
+  <!-- Foliage Canopy (一横与左右舒展叶冠) -->
+  <path d="M 50 150 Q 200 80 350 150 Q 320 220 200 190 Q 80 220 50 150 Z" fill="#559B74" stroke="#2F5D50" stroke-width="6"/>
+  <!-- Small Fruits -->
+  <circle cx="130" cy="140" r="14" fill="#E23E57" stroke="#7C1823" stroke-width="3"/>
+  <circle cx="270" cy="140" r="14" fill="#E23E57" stroke="#7C1823" stroke-width="3"/>
+  <!-- Character Badge -->
+  <rect x="160" y="320" width="80" height="60" rx="10" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="200" y="362" text-anchor="middle" font-size="36" font-weight="bold" fill="#000000">木</text>
+</svg>

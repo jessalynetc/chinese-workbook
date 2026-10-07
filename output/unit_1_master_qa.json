@@ -1,0 +1,26 @@
+{
+  "closed_paths_count": 32,
+  "closed_paths_in_range_25_45": true,
+  "text_labels_count": 33,
+  "target_characters": [
+    "天",
+    "雨",
+    "星",
+    "地",
+    "风",
+    "日",
+    "云",
+    "月"
+  ],
+  "found_characters_in_artwork": [
+    "天",
+    "雨",
+    "星",
+    "地",
+    "风",
+    "日",
+    "云",
+    "月"
+  ],
+  "passed": true
+}

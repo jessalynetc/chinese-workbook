@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792" width="612pt" height="792pt">
+  <defs>
+    <style>
+      .stroke-outer { stroke: #000000; stroke-width: 4.5; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-inner { stroke: #000000; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .char-label { font-family: "PingFang SC", "Kaiti SC", "SimSun", sans-serif; font-size: 16px; font-weight: bold; fill: #000000; }
+    </style>
+  </defs>
+  
+  <rect width="612" height="792" fill="#FFFFFF" />
+  
+  <g id="region_1">
+    <path d="M 65 100 Q 117 105 170 100 Q 180 137 175 165 Q 117 180 65 175 Q 50 137 65 100 Z" fill="#D6ECF0" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_2">
+    <path d="M 190 100 Q 242 105 295 100 Q 305 137 300 165 Q 242 180 190 175 Q 175 137 190 100 Z" fill="#864B38" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_3">
+    <path d="M 315 100 Q 367 105 420 100 Q 430 137 425 165 Q 367 180 315 175 Q 300 137 315 100 Z" fill="#E23E57" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_4">
+    <path d="M 440 100 Q 492 105 545 100 Q 555 137 550 165 Q 492 180 440 175 Q 425 137 440 100 Z" fill="#ECC058" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_5">
+    <path d="M 65 175 Q 117 180 170 175 Q 180 212 175 240 Q 117 255 65 250 Q 50 212 65 175 Z" fill="#EED044" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_6">
+    <path d="M 190 175 Q 242 180 295 175 Q 305 212 300 240 Q 242 255 190 250 Q 175 212 190 175 Z" fill="#F4F3ED" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_7">
+    <path d="M 315 175 Q 367 180 420 175 Q 430 212 425 240 Q 367 255 315 250 Q 300 212 315 175 Z" fill="#00939C" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_8">
+    <path d="M 440 175 Q 492 180 545 175 Q 555 212 550 240 Q 492 255 440 250 Q 425 212 440 175 Z" fill="#5AB897" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_9">
+    <path d="M 65 250 Q 117 255 170 250 Q 180 287 175 315 Q 117 330 65 325 Q 50 287 65 250 Z" fill="#D6ECF0" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_10">
+    <path d="M 190 250 Q 242 255 295 250 Q 305 287 300 315 Q 242 330 190 325 Q 175 287 190 250 Z" fill="#864B38" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_11">
+    <path d="M 315 250 Q 367 255 420 250 Q 430 287 425 315 Q 367 330 315 325 Q 300 287 315 250 Z" fill="#E23E57" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_12">
+    <path d="M 440 250 Q 492 255 545 250 Q 555 287 550 315 Q 492 330 440 325 Q 425 287 440 250 Z" fill="#ECC058" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_13">
+    <path d="M 65 325 Q 117 330 170 325 Q 180 362 175 390 Q 117 405 65 400 Q 50 362 65 325 Z" fill="#EED044" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_14">
+    <path d="M 190 325 Q 242 330 295 325 Q 305 362 300 390 Q 242 405 190 400 Q 175 362 190 325 Z" fill="#F4F3ED" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_15">
+    <path d="M 315 325 Q 367 330 420 325 Q 430 362 425 390 Q 367 405 315 400 Q 300 362 315 325 Z" fill="#00939C" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_16">
+    <path d="M 440 325 Q 492 330 545 325 Q 555 362 550 390 Q 492 405 440 400 Q 425 362 440 325 Z" fill="#5AB897" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_17">
+    <path d="M 65 400 Q 117 405 170 400 Q 180 437 175 465 Q 117 480 65 475 Q 50 437 65 400 Z" fill="#D6ECF0" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_18">
+    <path d="M 190 400 Q 242 405 295 400 Q 305 437 300 465 Q 242 480 190 475 Q 175 437 190 400 Z" fill="#864B38" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_19">
+    <path d="M 315 400 Q 367 405 420 400 Q 430 437 425 465 Q 367 480 315 475 Q 300 437 315 400 Z" fill="#E23E57" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_20">
+    <path d="M 440 400 Q 492 405 545 400 Q 555 437 550 465 Q 492 480 440 475 Q 425 437 440 400 Z" fill="#ECC058" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_21">
+    <path d="M 65 475 Q 117 480 170 475 Q 180 512 175 540 Q 117 555 65 550 Q 50 512 65 475 Z" fill="#EED044" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_22">
+    <path d="M 190 475 Q 242 480 295 475 Q 305 512 300 540 Q 242 555 190 550 Q 175 512 190 475 Z" fill="#F4F3ED" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_23">
+    <path d="M 315 475 Q 367 480 420 475 Q 430 512 425 540 Q 367 555 315 550 Q 300 512 315 475 Z" fill="#00939C" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_24">
+    <path d="M 440 475 Q 492 480 545 475 Q 555 512 550 540 Q 492 555 440 550 Q 425 512 440 475 Z" fill="#5AB897" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_25">
+    <path d="M 65 550 Q 117 555 170 550 Q 180 587 175 615 Q 117 630 65 625 Q 50 587 65 550 Z" fill="#D6ECF0" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_26">
+    <path d="M 190 550 Q 242 555 295 550 Q 305 587 300 615 Q 242 630 190 625 Q 175 587 190 550 Z" fill="#864B38" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_27">
+    <path d="M 315 550 Q 367 555 420 550 Q 430 587 425 615 Q 367 630 315 625 Q 300 587 315 550 Z" fill="#E23E57" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_28">
+    <path d="M 440 550 Q 492 555 545 550 Q 555 587 550 615 Q 492 630 440 625 Q 425 587 440 550 Z" fill="#ECC058" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_29">
+    <path d="M 65 625 Q 117 630 170 625 Q 180 662 175 690 Q 117 705 65 700 Q 50 662 65 625 Z" fill="#EED044" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_30">
+    <path d="M 190 625 Q 242 630 295 625 Q 305 662 300 690 Q 242 705 190 700 Q 175 662 190 625 Z" fill="#F4F3ED" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_31">
+    <path d="M 315 625 Q 367 630 420 625 Q 430 662 425 690 Q 367 705 315 700 Q 300 662 315 625 Z" fill="#00939C" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  <g id="region_32">
+    <path d="M 440 625 Q 492 630 545 625 Q 555 662 550 690 Q 492 705 440 700 Q 425 662 440 625 Z" fill="#5AB897" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+</svg>

@@ -1,0 +1,206 @@
+{
+  "project": "Chinese Learning & Coloring Book System",
+  "version": "2.0.0",
+  "totalCharacters": 100,
+  "totalUnits": 12,
+  "colorSource": "nevertoday/zhongguo-traditional-colors",
+  "description": "100 core Chinese characters organized into 12 thematic units with Pinyin, English translation, and verified Chinese traditional colors.",
+  "units": [
+    {
+      "unit": 1,
+      "theme": "自然天地",
+      "subject": "晨光初照的太阳与云彩",
+      "characters": ["天", "地", "日", "月", "星", "云", "雨", "风"],
+      "traditionalColors": [
+        { "char": "天", "pinyin": "tiān", "en": "sky/heaven", "name": "月白", "hex": "#D6ECF0", "colorId": 424, "culturalNote": "古人指月光映照下清透泛青之白" },
+        { "char": "地", "pinyin": "dì", "en": "earth/ground", "name": "赭石", "hex": "#864B38", "colorId": 120, "culturalNote": "大地矿石之红褐，沉稳厚重" },
+        { "char": "日", "pinyin": "rì", "en": "sun/day", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "源自天然辰砂，象征初升红日与吉祥" },
+        { "char": "月", "pinyin": "yuè", "en": "moon/month", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "如松脂千年凝结之润黄，温润如月华" },
+        { "char": "星", "pinyin": "xīng", "en": "star", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "秋葵花瓣之清亮嫩黄，如夜空繁星" },
+        { "char": "云", "pinyin": "yún", "en": "cloud", "name": "乳白", "hex": "#F4F3ED", "colorId": 1, "culturalNote": "纯净柔和之凝乳白，悠游长空" },
+        { "char": "雨", "pinyin": "yǔ", "en": "rain", "name": "翠蓝", "hex": "#00939C", "colorId": 443, "culturalNote": "雨过天青与湖水荡漾之清冽水色" },
+        { "char": "风", "pinyin": "fēng", "en": "wind", "name": "碧青", "hex": "#5AB897", "colorId": 380, "culturalNote": "春风拂面掠过草木的灵动青绿" }
+      ]
+    },
+    {
+      "unit": 2,
+      "theme": "五行山水",
+      "subject": "流水潺潺的高山森林",
+      "characters": ["金", "木", "水", "火", "土", "山", "石", "田"],
+      "traditionalColors": [
+        { "char": "金", "pinyin": "jīn", "en": "gold/metal", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "五行西方之色，尊贵明亮" },
+        { "char": "木", "pinyin": "mù", "en": "wood/tree", "name": "荷叶绿", "hex": "#559B74", "colorId": 490, "culturalNote": "盛夏池塘荷叶的生机盎然之绿" },
+        { "char": "水", "pinyin": "shuǐ", "en": "water", "name": "翠蓝", "hex": "#00939C", "colorId": 443, "culturalNote": "深潭如镜、碧波荡漾之透亮蓝" },
+        { "char": "火", "pinyin": "huǒ", "en": "fire", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "烈焰升腾，光明普照之正色" },
+        { "char": "土", "pinyin": "tǔ", "en": "soil/earth", "name": "土黄", "hex": "#C59B51", "colorId": 95, "culturalNote": "华夏大地沃土之正黄" },
+        { "char": "山", "pinyin": "shān", "en": "mountain", "name": "青黛", "hex": "#455E57", "colorId": 510, "culturalNote": "远山如黛，苍茫层峦之深色" },
+        { "char": "石", "pinyin": "shí", "en": "stone/rock", "name": "石青", "hex": "#3A6988", "colorId": 460, "culturalNote": "蓝铜矿研磨之天然矿物矿彩" },
+        { "char": "田", "pinyin": "tián", "en": "field/farmland", "name": "竹青", "hex": "#789262", "colorId": 480, "culturalNote": "良田千亩，稻浪与竹林交织之青绿" }
+      ]
+    },
+    {
+      "unit": 3,
+      "theme": "草木萌动",
+      "subject": "春暖花开的花园草坪",
+      "characters": ["花", "草", "树", "叶", "竹", "果", "米", "禾"],
+      "traditionalColors": [
+        { "char": "花", "pinyin": "huā", "en": "flower", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188, "culturalNote": "木芙蓉初绽之娇艳柔粉" },
+        { "char": "草", "pinyin": "cǎo", "en": "grass", "name": "荷叶绿", "hex": "#559B74", "colorId": 490, "culturalNote": "小草初发，春回大地之萌生绿" },
+        { "char": "树", "pinyin": "shù", "en": "tree", "name": "苍绿", "hex": "#4D634C", "colorId": 505, "culturalNote": "千年古木沉雄挺拔之苍苍深色" },
+        { "char": "叶", "pinyin": "yè", "en": "leaf", "name": "松柏绿", "hex": "#2F5D50", "colorId": 512, "culturalNote": "经冬不凋之松针幽静青翠" },
+        { "char": "竹", "pinyin": "zhú", "en": "bamboo", "name": "碧玉石", "hex": "#5CB495", "colorId": 395, "culturalNote": "修竹幽篁，节节拔高如碧玉" },
+        { "char": "果", "pinyin": "guǒ", "en": "fruit", "name": "枣红", "hex": "#7C1823", "colorId": 244, "culturalNote": "金秋累累红枣挂枝之丰饶深红" },
+        { "char": "米", "pinyin": "mǐ", "en": "rice/grain", "name": "象牙白", "hex": "#FDFBF5", "colorId": 5, "culturalNote": "稻穗脱壳之晶莹温润纯白" },
+        { "char": "禾", "pinyin": "hé", "en": "cereal/seedling", "name": "柳绿", "hex": "#AFDD22", "colorId": 472, "culturalNote": "禾苗初青，春雨灌溉之嫩青黄" }
+      ]
+    },
+    {
+      "unit": 4,
+      "theme": "生灵动物",
+      "subject": "草地上奔跑的小兔与小马",
+      "characters": ["马", "牛", "羊", "猫", "狗", "鸟", "鱼", "兔"],
+      "traditionalColors": [
+        { "char": "马", "pinyin": "mǎ", "en": "horse", "name": "枣红", "hex": "#7C1823", "colorId": 244, "culturalNote": "赤兔千里，骏马奔驰之雄浑红" },
+        { "char": "牛", "pinyin": "niú", "en": "ox/cow", "name": "墨褐", "hex": "#43342E", "colorId": 150, "culturalNote": "耕牛踏实躬行之厚重泥土褐" },
+        { "char": "羊", "pinyin": "yáng", "en": "sheep/goat", "name": "乳白", "hex": "#F4F3ED", "colorId": 1, "culturalNote": "白羊如棉团点缀于茵茵草场" },
+        { "char": "猫", "pinyin": "māo", "en": "cat", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "暖阳下慵懒橘猫之茸茸亮黄" },
+        { "char": "狗", "pinyin": "gǒu", "en": "dog", "name": "赭石", "hex": "#864B38", "colorId": 120, "culturalNote": "中华田园黄犬之忠诚稳厚" },
+        { "char": "鸟", "pinyin": "niǎo", "en": "bird", "name": "翠蓝", "hex": "#00939C", "colorId": 443, "culturalNote": "翠鸟掠水之炫目羽彩" },
+        { "char": "鱼", "pinyin": "yú", "en": "fish", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "红鲤跃龙门之吉庆祥瑞之红" },
+        { "char": "兔", "pinyin": "tù", "en": "rabbit", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188, "culturalNote": "萌兔粉嫩双耳与活泼灵动" }
+      ]
+    },
+    {
+      "unit": 5,
+      "theme": "身体五官",
+      "subject": "可爱大脑袋与聪明五官",
+      "characters": ["头", "目", "耳", "口", "鼻", "手", "足", "心"],
+      "traditionalColors": [
+        { "char": "头", "pinyin": "tóu", "en": "head", "name": "魏紫", "hex": "#704276", "colorId": 321, "culturalNote": "洛阳牡丹之冠，灵智顶峰" },
+        { "char": "目", "pinyin": "mù", "en": "eye", "name": "黛黑", "hex": "#3B3D3B", "colorId": 740, "culturalNote": "眼眸漆黑明亮，洞察秋毫" },
+        { "char": "耳", "pinyin": "ěr", "en": "ear", "name": "肉粉", "hex": "#F6B3A8", "colorId": 210, "culturalNote": "孩童柔嫩耳廓之健康温润" },
+        { "char": "口", "pinyin": "kǒu", "en": "mouth", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "唇红齿白，开口诵读千古诗篇" },
+        { "char": "鼻", "pinyin": "bí", "en": "nose", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "通气开窍，辨识人间五谷芬芳" },
+        { "char": "手", "pinyin": "shǒu", "en": "hand", "name": "月白", "hex": "#D6ECF0", "colorId": 424, "culturalNote": "一双巧手执笔画出七彩童年" },
+        { "char": "足", "pinyin": "zú", "en": "foot", "name": "青翠", "hex": "#00A887", "colorId": 435, "culturalNote": "千里之行始于足下之健步如飞" },
+        { "char": "心", "pinyin": "xīn", "en": "heart/mind", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188, "culturalNote": "赤子之心，热情纯良" }
+      ]
+    },
+    {
+      "unit": 6,
+      "theme": "家族亲友",
+      "subject": "温暖有爱的一家人",
+      "characters": ["人", "父", "母", "子", "女", "友", "兄", "弟"],
+      "traditionalColors": [
+        { "char": "人", "pinyin": "rén", "en": "person", "name": "赭石", "hex": "#864B38", "colorId": 120, "culturalNote": "顶天立地，互倚而立" },
+        { "char": "父", "pinyin": "fù", "en": "father", "name": "青黛", "hex": "#455E57", "colorId": 510, "culturalNote": "父爱如山，坚毅沉稳" },
+        { "char": "母", "pinyin": "mǔ", "en": "mother", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188, "culturalNote": "萱草花开，慈母温暖柔光" },
+        { "char": "子", "pinyin": "zǐ", "en": "son/child", "name": "翠蓝", "hex": "#00939C", "colorId": 443, "culturalNote": "朝气蓬勃之少年朗朗" },
+        { "char": "女", "pinyin": "nǚ", "en": "daughter/female", "name": "肉粉", "hex": "#F6B3A8", "colorId": 210, "culturalNote": "掌上明珠，温婉娴雅" },
+        { "char": "友", "pinyin": "yǒu", "en": "friend", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "君子之交，如珀温润金石之盟" },
+        { "char": "兄", "pinyin": "xiōng", "en": "older brother", "name": "石青", "hex": "#3A6988", "colorId": 460, "culturalNote": "兄友弟恭，长兄如护" },
+        { "char": "弟", "pinyin": "dì", "en": "younger brother", "name": "碧青", "hex": "#5AB897", "colorId": 380, "culturalNote": "天真烂漫，茁壮成长" }
+      ]
+    },
+    {
+      "unit": 7,
+      "theme": "空间方位",
+      "subject": "小猫在房前屋后躲猫猫",
+      "characters": ["上", "下", "左", "右", "中", "门", "窗", "家"],
+      "traditionalColors": [
+        { "char": "上", "pinyin": "shàng", "en": "up/above", "name": "翠蓝", "hex": "#00939C", "colorId": 443, "culturalNote": "青云直上九重霄" },
+        { "char": "下", "pinyin": "xià", "en": "down/below", "name": "赭石", "hex": "#864B38", "colorId": 120, "culturalNote": "脚踏实地，向下扎根" },
+        { "char": "左", "pinyin": "zuǒ", "en": "left", "name": "青翠", "hex": "#00A887", "colorId": 435, "culturalNote": "东方青龙，左辅右弼" },
+        { "char": "右", "pinyin": "yòu", "en": "right", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "西方白虎，相辅相成" },
+        { "char": "中", "pinyin": "zhōng", "en": "middle/center", "name": "土黄", "hex": "#C59B51", "colorId": 95, "culturalNote": "中央正位，中庸平正" },
+        { "char": "门", "pinyin": "mén", "en": "door/gate", "name": "枣红", "hex": "#7C1823", "colorId": 244, "culturalNote": "古色朱门，迎福纳祥" },
+        { "char": "窗", "pinyin": "chuāng", "en": "window", "name": "月白", "hex": "#D6ECF0", "colorId": 424, "culturalNote": "推窗放进一窗明月清辉" },
+        { "char": "家", "pinyin": "jiā", "en": "home/family", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "屋檐灯火，万家团圆之暖" }
+      ]
+    },
+    {
+      "unit": 8,
+      "theme": "数字启蒙",
+      "subject": "彩虹桥上数积木",
+      "characters": ["一", "二", "三", "四", "五", "六", "七", "八"],
+      "traditionalColors": [
+        { "char": "一", "pinyin": "yī", "en": "one", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "太极生两仪，一元复始" },
+        { "char": "二", "pinyin": "èr", "en": "two", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "天地阴阳，成双成对" },
+        { "char": "三", "pinyin": "sān", "en": "three", "name": "荷叶绿", "hex": "#559B74", "colorId": 490, "culturalNote": "三阳开泰，生生不息" },
+        { "char": "四", "pinyin": "sì", "en": "four", "name": "翠蓝", "hex": "#00939C", "colorId": 443, "culturalNote": "四海升平，四方安澜" },
+        { "char": "五", "pinyin": "wǔ", "en": "five", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "五行聚首，五谷丰登" },
+        { "char": "六", "pinyin": "liù", "en": "six", "name": "青翠", "hex": "#00A887", "colorId": 435, "culturalNote": "六六大顺，草木向荣" },
+        { "char": "七", "pinyin": "qī", "en": "seven", "name": "魏紫", "hex": "#704276", "colorId": 321, "culturalNote": "七夕巧月，紫薇星聚" },
+        { "char": "八", "pinyin": "bā", "en": "eight", "name": "枣红", "hex": "#7C1823", "colorId": 244, "culturalNote": "八方来贺，红红火火" }
+      ]
+    },
+    {
+      "unit": 9,
+      "theme": "尺度量词",
+      "subject": "大象与小蚂蚁的旅行",
+      "characters": ["九", "十", "百", "千", "大", "小", "多", "少", "长"],
+      "traditionalColors": [
+        { "char": "九", "pinyin": "jiǔ", "en": "nine", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "九九归一，极数尊崇" },
+        { "char": "十", "pinyin": "shí", "en": "ten", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "十全十美，圆满如意" },
+        { "char": "百", "pinyin": "bǎi", "en": "hundred", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "百花齐放春满园" },
+        { "char": "千", "pinyin": "qiān", "en": "thousand", "name": "石青", "hex": "#3A6988", "colorId": 460, "culturalNote": "千里江山入画图" },
+        { "char": "大", "pinyin": "dà", "en": "big/large", "name": "青黛", "hex": "#455E57", "colorId": 510, "culturalNote": "海纳百川，博大高旷" },
+        { "char": "小", "pinyin": "xiǎo", "en": "small/little", "name": "月白", "hex": "#D6ECF0", "colorId": 424, "culturalNote": "玲珑精巧，宛若晨星" },
+        { "char": "多", "pinyin": "duō", "en": "many/much", "name": "荷叶绿", "hex": "#559B74", "colorId": 490, "culturalNote": "繁枝茂叶，累累丰盛" },
+        { "char": "少", "pinyin": "shǎo", "en": "few/little", "name": "肉粉", "hex": "#F6B3A8", "colorId": 210, "culturalNote": "少长咸集，纯稚清简" },
+        { "char": "长", "pinyin": "cháng", "en": "long", "name": "碧青", "hex": "#5AB897", "colorId": 380, "culturalNote": "长风破浪会有时" }
+      ]
+    },
+    {
+      "unit": 10,
+      "theme": "动作游玩",
+      "subject": "快乐操场上的游戏时光",
+      "characters": ["走", "跑", "跳", "坐", "立", "飞", "看", "听", "说"],
+      "traditionalColors": [
+        { "char": "走", "pinyin": "zǒu", "en": "walk", "name": "青翠", "hex": "#00A887", "colorId": 435, "culturalNote": "昂首阔步，步履轻快" },
+        { "char": "跑", "pinyin": "pǎo", "en": "run", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "如火疾风，热烈奔腾" },
+        { "char": "跳", "pinyin": "tiào", "en": "jump", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "欢腾雀跃，阳光照耀" },
+        { "char": "坐", "pinyin": "zuò", "en": "sit", "name": "土黄", "hex": "#C59B51", "colorId": 95, "culturalNote": "如坐磐石，端正安稳" },
+        { "char": "立", "pinyin": "lì", "en": "stand", "name": "松柏绿", "hex": "#2F5D50", "colorId": 512, "culturalNote": "立如劲松，英姿挺拔" },
+        { "char": "飞", "pinyin": "fēi", "en": "fly", "name": "翠蓝", "hex": "#00939C", "colorId": 443, "culturalNote": "展翅高飞，直上云天" },
+        { "char": "看", "pinyin": "kàn", "en": "look/see", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "慧眼观瞧世间万千景象" },
+        { "char": "听", "pinyin": "tīng", "en": "listen/hear", "name": "月白", "hex": "#D6ECF0", "colorId": 424, "culturalNote": "静听松风水流之雅静" },
+        { "char": "说", "pinyin": "shuō", "en": "speak/say", "name": "芙蓉红", "hex": "#ED788E", "colorId": 188, "culturalNote": "口吐莲花，言语欢畅" }
+      ]
+    },
+    {
+      "unit": 11,
+      "theme": "生活器用",
+      "subject": "幸福厨房的小小美食家",
+      "characters": ["奶", "饭", "茶", "肉", "菜", "刀", "勺", "碗", "车"],
+      "traditionalColors": [
+        { "char": "奶", "pinyin": "nǎi", "en": "milk", "name": "乳白", "hex": "#F4F3ED", "colorId": 1, "culturalNote": "纯正醇厚，如浓醇奶香与白玉之洁" },
+        { "char": "饭", "pinyin": "fàn", "en": "rice/meal", "name": "象牙白", "hex": "#FDFBF5", "colorId": 5, "culturalNote": "一饭一粟，当思来之不易" },
+        { "char": "茶", "pinyin": "chá", "en": "tea", "name": "竹青", "hex": "#789262", "colorId": 480, "culturalNote": "新采龙井，茗香清雅" },
+        { "char": "肉", "pinyin": "ròu", "en": "meat", "name": "枣红", "hex": "#7C1823", "colorId": 244, "culturalNote": "滋补强体，浓郁醇厚" },
+        { "char": "菜", "pinyin": "cài", "en": "vegetable", "name": "荷叶绿", "hex": "#559B74", "colorId": 490, "culturalNote": "青青蔬果，田园天然之美" },
+        { "char": "刀", "pinyin": "dāo", "en": "knife", "name": "石青", "hex": "#3A6988", "colorId": 460, "culturalNote": "工欲善其事必先利其器" },
+        { "char": "勺", "pinyin": "sháo", "en": "spoon", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "小勺舀起热汤蜜意" },
+        { "char": "碗", "pinyin": "wǎn", "en": "bowl", "name": "月白", "hex": "#D6ECF0", "colorId": 424, "culturalNote": "白瓷如玉，装满暖心饭菜" },
+        { "char": "车", "pinyin": "chē", "en": "cart/car", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "古代朱轮华毂，载着梦想远行" }
+      ]
+    },
+    {
+      "unit": 12,
+      "theme": "时序状态",
+      "subject": "四季轮转的时光秘密",
+      "characters": ["春", "夏", "秋", "冬", "晨", "夜", "晴", "阴", "光"],
+      "traditionalColors": [
+        { "char": "春", "pinyin": "chūn", "en": "spring", "name": "柳绿", "hex": "#AFDD22", "colorId": 472, "culturalNote": "春回大地，万物复苏之明亮草绿" },
+        { "char": "夏", "pinyin": "xià", "en": "summer", "name": "朱红", "hex": "#E23E57", "colorId": 135, "culturalNote": "盛夏繁茂，日光灼灼之红" },
+        { "char": "秋", "pinyin": "qiū", "en": "autumn", "name": "秋葵黄", "hex": "#EED044", "colorId": 35, "culturalNote": "金秋万里，天高云淡之金黄" },
+        { "char": "冬", "pinyin": "dōng", "en": "winter", "name": "乳白", "hex": "#F4F3ED", "colorId": 1, "culturalNote": "白雪皑皑，银装素裹之纯静" },
+        { "char": "晨", "pinyin": "chén", "en": "morning", "name": "肉粉", "hex": "#F6B3A8", "colorId": 210, "culturalNote": "东方破晓，朝霞微露之暖粉" },
+        { "char": "夜", "pinyin": "yè", "en": "night", "name": "黛黑", "hex": "#3B3D3B", "colorId": 740, "culturalNote": "星河静谧，安然入梦之夜色" },
+        { "char": "晴", "pinyin": "qíng", "en": "sunny", "name": "琥珀黄", "hex": "#ECC058", "colorId": 80, "culturalNote": "晴空朗照，微风不燥" },
+        { "char": "阴", "pinyin": "yīn", "en": "cloudy/overcast", "name": "青黛", "hex": "#455E57", "colorId": 510, "culturalNote": "云锁青峰，烟雨朦胧" },
+        { "char": "光", "pinyin": "guāng", "en": "light", "name": "月白", "hex": "#D6ECF0", "colorId": 424, "culturalNote": "凿壁借光，照亮求知童心" }
+      ]
+    }
+  ]
+}

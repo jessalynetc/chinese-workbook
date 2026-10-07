@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792" width="612pt" height="792pt">
+  <rect width="612" height="792" fill="#FFFFFF"/>
+  <!-- Print boundary guide safe box (margin 40pt) -->
+  <rect x="40" y="36" width="532" height="720" fill="none" stroke="#EEEEEE" stroke-width="1"/>
+  <text x="306" y="70" text-anchor="middle" font-size="22" font-weight="bold">【汉字寻宝迷宫】找到所有的“日”字！</text>
+  <text x="306" y="96" text-anchor="middle" font-size="13" fill="#666666">从起点 🚩 沿着带有“日”字的方块连接出一条通往宝箱 🏁 的道路！</text>
+  <!-- Maze Grid 5x5 -->
+  <g id="maze-grid">
+    <rect x="136" y="150" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="168" y="192" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="206" y="150" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="238" y="192" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">大</text>
+    <rect x="276" y="150" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="308" y="192" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">小</text>
+    <rect x="346" y="150" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="378" y="192" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="416" y="150" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="448" y="192" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">月</text>
+    <rect x="136" y="220" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="168" y="262" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="206" y="220" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="238" y="262" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="276" y="220" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="308" y="262" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">山</text>
+    <rect x="346" y="220" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="378" y="262" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">石</text>
+    <rect x="416" y="220" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="448" y="262" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">木</text>
+    <rect x="136" y="290" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="168" y="332" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">水</text>
+    <rect x="206" y="290" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="238" y="332" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="276" y="290" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="308" y="332" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="346" y="290" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="378" y="332" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">火</text>
+    <rect x="416" y="290" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="448" y="332" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">土</text>
+    <rect x="136" y="360" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="168" y="402" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">天</text>
+    <rect x="206" y="360" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="238" y="402" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">地</text>
+    <rect x="276" y="360" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="308" y="402" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="346" y="360" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="378" y="402" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="416" y="360" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="448" y="402" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">星</text>
+    <rect x="136" y="430" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="168" y="472" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">云</text>
+    <rect x="206" y="430" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="238" y="472" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">风</text>
+    <rect x="276" y="430" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+    <text x="308" y="472" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">雨</text>
+    <rect x="346" y="430" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="378" y="472" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+    <rect x="416" y="430" width="65" height="65" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="448" y="472" text-anchor="middle" font-size="28" font-weight="bold" fill="#000000">日</text>
+  </g>
+  <text x="90" y="190" font-size="16" font-weight="bold">起点 🚩</text>
+  <text x="495" y="470" font-size="16" font-weight="bold">终点 🏁</text>
+  <text x="306" y="580" text-anchor="middle" font-size="15" fill="#333333">数一数：你一共踩过了几个目标汉字？ [      ] 个</text>
+</svg>

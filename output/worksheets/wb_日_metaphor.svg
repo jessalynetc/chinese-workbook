@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792" width="612pt" height="792pt">
+  <rect width="612" height="792" fill="#FFFFFF"/>
+  <!-- Print boundary guide safe box (margin 40pt) -->
+  <rect x="40" y="36" width="532" height="720" fill="none" stroke="#EEEEEE" stroke-width="1"/>
+  <text x="306" y="70" text-anchor="middle" font-size="22" font-weight="bold">【象形探秘】汉字从画里走出来：“日”</text>
+  <text x="306" y="96" text-anchor="middle" font-size="13" fill="#666666">古人观察大自然创造了象形字，看看它是怎么演变的！</text>
+  <!-- 3 Stages Progression -->
+  <rect x="70" y="150" width="130" height="150" rx="12" fill="#F9F9F9" stroke="#000000" stroke-width="2"/>
+  <text x="135" y="180" text-anchor="middle" font-size="14" fill="#666666">第1步：自然实物</text>
+  <circle cx="135" cy="230" r="35" fill="none" stroke="#000000" stroke-width="4"/>
+  <text x="135" y="325" text-anchor="middle" font-size="14" font-weight="bold">具象图画</text>
+  <text x="225" y="235" text-anchor="middle" font-size="28" font-weight="bold">➔</text>
+  <rect x="250" y="150" width="130" height="150" rx="12" fill="#F9F9F9" stroke="#000000" stroke-width="2"/>
+  <text x="315" y="180" text-anchor="middle" font-size="14" fill="#666666">第2步：甲骨金文</text>
+  <text x="315" y="245" text-anchor="middle" font-size="52" font-weight="bold">日</text>
+  <text x="315" y="325" text-anchor="middle" font-size="14" font-weight="bold">古代汉字</text>
+  <text x="405" y="235" text-anchor="middle" font-size="28" font-weight="bold">➔</text>
+  <rect x="430" y="150" width="130" height="150" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <text x="495" y="180" text-anchor="middle" font-size="14" fill="#666666">第3步：现代楷体</text>
+  <text x="495" y="245" text-anchor="middle" font-size="64" font-weight="bold" fill="#000000">日</text>
+  <text x="495" y="325" text-anchor="middle" font-size="14" font-weight="bold">今日汉字</text>
+  <!-- Interactive Exercise -->
+  <rect x="70" y="370" width="490" height="260" rx="16" fill="#FAFAFA" stroke="#000000" stroke-width="2.5"/>
+  <text x="315" y="410" text-anchor="middle" font-size="17" font-weight="bold">【小小观察家】找找看！画面中藏着什么规律？</text>
+  <text x="100" y="460" font-size="14" fill="#333333">1. “日”的字形骨架就像我们生活中的哪一样东西？</text>
+  <rect x="100" y="480" width="430" height="40" rx="6" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1.5"/>
+  <text x="100" y="550" font-size="14" fill="#333333">2. 动手画一画：你能用“日”字画一幅可爱的小画吗？</text>
+  <rect x="100" y="570" width="430" height="50" rx="6" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="1.5"/>
+</svg>
