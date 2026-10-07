@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinese Workbook & Coloring Book - 样品审批预览 (Sample Approval)</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --text: #212529;
+      --border: #E9ECEF;
+      --primary: #1A73E8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+      margin: 0;
+      padding: 30px;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .header {
+      max-width: 1200px;
+      margin: 0 auto 30px auto;
+      background: var(--card-bg);
+      padding: 24px 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header h1 {
+      margin: 0 0 8px 0;
+      font-size: 22px;
+    }
+    .header p {
+      margin: 0;
+      color: #6C757D;
+      font-size: 14px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      background: #E8F0FE;
+      color: #1967D2;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      border-left: 4px solid var(--primary);
+      padding-left: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card h3 {
+      margin: 0 0 12px 0;
+      font-size: 16px;
+      color: #495057;
+      width: 100%;
+      text-align: left;
+    }
+    .preview-box {
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 480px;
+    }
+    .preview-box img, .preview-box object {
+      max-width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+    }
+    .meta-tag {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #6C757D;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div>
+      <h1>📚 儿童中文学习全彩与线稿样本审批 (Sample Approval Gallery)</h1>
+      <p>当前阶段：批产前样本视觉核验（Before Batch Production）| 规范：Simple Chunky CBN v1.0</p>
+    </div>
+    <span class="badge">已连接 GitHub: chinese-workbook</span>
+  </div>
+
+  <div class="container">
+
+    <!-- 1. 填色书样本对比 (Unit 1: 自然天地) -->
+    <div>
+      <div class="section-title">
+        <span>Part 1: 填色书样本 (Coloring Book - Unit 1 自然天地)</span>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h3>🎨 全彩参考图 (Color Reference - 扫码 Web 端呈现)</h3>
+          <div class="preview-box">
+            <object data="output/unit_1_master_color_ref.svg" type="image/svg+xml" width="100%" height="480"></object>
+          </div>
+          <div class="meta-tag">特点：中国传统色纯色平涂、无文字干扰、纯色轮廓。</div>
+        </div>
+        <div class="card">
+          <h3>📖 黑白打印线稿 (Worksheet - 纸质书内页)</h3>
+          <div class="preview-box">
+            <object data="output/unit_1_master_worksheet.svg" type="image/svg+xml" width="100%" height="480"></object>
+          </div>
+          <div class="meta-tag">特点：4.5pt 粗描边、32 个闭合大色块、顶部蜡笔图例栏、居中汉字。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. 练习册活动页样本 (日字 3 题型) -->
+    <div>
+      <div class="section-title">
+        <span>Part 2: 练习册样本 (Workbook Activities - 以「日」字为例)</span>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>✍️ 笔顺大描红 (Tracing)</h3>
+          <div class="preview-box" style="min-height: 380px;">
+            <object data="output/worksheets/wb_日_tracing.svg" type="image/svg+xml" width="100%" height="360"></object>
+          </div>
+          <div class="meta-tag">适用年龄：3-5岁手指运笔引导与笔顺记忆。</div>
+        </div>
+        <div class="card">
+          <h3>🧩 汉字迷宫 (Maze Game)</h3>
+          <div class="preview-box" style="min-height: 380px;">
+            <object data="output/worksheets/wb_日_maze.svg" type="image/svg+xml" width="100%" height="360"></object>
+          </div>
+          <div class="meta-tag">适用年龄：4-6岁目标汉字形近字视觉辨析。</div>
+        </div>
+        <div class="card">
+          <h3>☀️ 象形探秘 (Metaphor)</h3>
+          <div class="preview-box" style="min-height: 380px;">
+            <object data="output/worksheets/wb_日_metaphor.svg" type="image/svg+xml" width="100%" height="360"></object>
+          </div>
+          <div class="meta-tag">演变逻辑：太阳实物 → 太阳图画 → 楷体「日」。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. 象形字插画引擎样本 -->
+    <div>
+      <div class="section-title">
+        <span>Part 3: 汉字象形矢量图画引擎 (Pictograms - 骨架感知)</span>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>🌳「木」字象形画</h3>
+          <div class="preview-box" style="min-height: 280px;">
+            <object data="output/pictograms/木.svg" type="image/svg+xml" width="100%" height="260"></object>
+          </div>
+          <div class="meta-tag">结构主线：主干竖立，枝桠舒展。</div>
+        </div>
+        <div class="card">
+          <h3>🌧️「雨」字象形画</h3>
+          <div class="preview-box" style="min-height: 280px;">
+            <object data="output/pictograms/雨.svg" type="image/svg+xml" width="100%" height="260"></object>
+          </div>
+          <div class="meta-tag">结构主线：上横为乌云，点挑为水滴。</div>
+        </div>
+        <div class="card">
+          <h3>🐦「鸟」字象形画</h3>
+          <div class="preview-box" style="min-height: 280px;">
+            <object data="output/pictograms/鸟.svg" type="image/svg+xml" width="100%" height="260"></object>
+          </div>
+          <div class="meta-tag">结构主线：飞鸟羽翼与圆润眼睛。</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
