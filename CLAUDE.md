@@ -50,17 +50,20 @@ Errors are learning opportunities. When something breaks:
 ## File Organization
 
 **Deliverables vs Intermediates:**  
-- **Deliverables**: Google Sheets, Google Slides, or other cloud-based outputs that the user can access  
+- **Deliverables**: Final vector files, worksheets, and companion exports in `output/` (or cloud services like Google Sheets/Slides)
 - **Intermediates**: Temporary files needed during processing
 
 **Directory structure:**  
 - `.tmp/` - All intermediate files (dossiers, scraped data, temp exports). Never commit, always regenerated.  
 - `execution/` - Python scripts (the deterministic tools)  
 - `directives/` - SOPs in Markdown (the instruction set)  
+- `skills/` - Specialized prompt packs and skill definitions (e.g. `skills/color-by-character/`)  
+- `docs/` - Product specifications, reference documentation, and architectural designs  
+- `output/` - Local generated deliverables (coloring sheets, worksheets, pictograms)  
 - `.env` - Environment variables and API keys  
 - `credentials.json`, `token.json` - Google OAuth credentials (required files, in `.gitignore`)
 
-**Key principle:** Local files are only for processing. Deliverables live in cloud services (Google Sheets, Slides, etc.) where the user can access them. Everything in `.tmp/` can be deleted and regenerated.
+**Key principle:** Local intermediate files are only for processing. Everything in `.tmp/` can be deleted and regenerated.
 
 ## Summary
 
