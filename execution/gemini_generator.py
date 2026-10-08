@@ -59,7 +59,99 @@ def get_unit_data(unit_id: int) -> dict:
     raise ValueError(f"Unit {unit_id} not found in curriculum data.")
 
 
+
+def generate_unit_2_scenic_svg() -> str:
+    """
+    Simple Chunky CBN v1.0 scenic illustration for Unit 2: 五行大自然 (流水潺潺的高山森林).
+    32 closed large regions with 4.5pt outer / 2.5pt inner contours and centered characters:
+    - 金 (秋葵黄 #EED044): 晨曦金光与天光
+    - 木 (荷叶绿 #559B74): 郁郁葱葱的高山林冠
+    - 水 (翠蓝 #00939C): 蜿蜒穿流的清泉溪水
+    - 火 (朱红 #E23E57): 温暖红日与林间篝火
+    - 土 (土黄 #C59B51): 肥沃山坡与河岸泥土
+    - 山 (青黛 #455E57): 层峦叠嶂的高山主峰
+    - 石 (石青 #3A6988): 溪畔圆润的河滩卵石
+    - 田 (竹青 #789262): 依山傍水的阶梯良田
+    """
+    paths = [
+        # --- Sky & Sun (火, 金) ---
+        ("火", "#E23E57", "M 480 120 A 32 32 0 1 0 480 184 A 32 32 0 1 0 480 120 Z", 480, 152),
+        ("金", "#EED044", "M 430 100 Q 480 80 530 100 L 520 125 Q 480 110 440 125 Z", 480, 108),
+        ("金", "#EED044", "M 525 135 L 565 150 L 555 175 L 515 160 Z", 538, 155),
+        ("金", "#EED044", "M 390 100 Q 430 140 435 180 L 405 185 Q 400 150 365 120 Z", 400, 145),
+
+        # --- High Mountains (山) ---
+        ("山", "#455E57", "M 180 270 L 230 140 Q 255 120 280 140 L 330 270 Z", 255, 205),
+        ("山", "#455E57", "M 50 270 L 95 160 Q 120 140 145 160 L 195 270 Z", 120, 215),
+        ("山", "#455E57", "M 310 270 L 355 165 Q 380 145 405 165 L 450 270 Z", 380, 215),
+        ("山", "#455E57", "M 435 270 L 480 180 Q 500 165 520 180 L 565 270 Z", 500, 225),
+
+        # --- Forest & Trees (木) ---
+        ("木", "#559B74", "M 45 350 Q 110 260 175 350 Q 110 380 45 350 Z", 110, 335),
+        ("木", "#559B74", "M 60 420 Q 130 330 200 420 Q 130 450 60 420 Z", 130, 400),
+        ("木", "#559B74", "M 180 340 Q 240 270 300 340 Q 240 370 180 340 Z", 240, 330),
+        ("木", "#559B74", "M 360 340 Q 420 260 480 340 Q 420 370 360 340 Z", 420, 325),
+        ("木", "#559B74", "M 450 350 Q 510 280 570 350 Q 510 380 450 350 Z", 510, 340),
+        ("木", "#559B74", "M 430 430 Q 500 350 570 430 Q 500 460 430 430 Z", 500, 415),
+
+        # --- Flowing River Stream (水) ---
+        ("水", "#00939C", "M 290 270 Q 320 310 290 350 L 340 360 Q 360 310 330 270 Z", 315, 315),
+        ("水", "#00939C", "M 285 350 Q 250 390 280 440 L 330 430 Q 310 390 335 360 Z", 305, 395),
+        ("水", "#00939C", "M 275 440 Q 310 480 270 530 L 220 520 Q 250 480 230 440 Z", 260, 480),
+        ("水", "#00939C", "M 220 520 Q 180 560 210 610 L 270 600 Q 240 560 270 530 Z", 240, 565),
+        ("水", "#00939C", "M 210 610 Q 160 650 180 710 L 245 700 Q 220 650 265 600 Z", 215, 655),
+        ("水", "#00939C", "M 180 710 Q 160 745 220 745 L 290 745 Q 260 720 245 700 Z", 230, 725),
+
+        # --- Farmland / Fields (田) ---
+        ("田", "#789262", "M 345 425 L 435 425 L 425 480 L 335 480 Z", 385, 452),
+        ("田", "#789262", "M 435 425 L 525 425 L 515 480 L 425 480 Z", 475, 452),
+        ("田", "#789262", "M 330 485 L 420 485 L 410 545 L 320 545 Z", 370, 515),
+        ("田", "#789262", "M 420 485 L 510 485 L 500 545 L 410 545 Z", 460, 515),
+
+        # --- Riverbank Stones (石) ---
+        ("石", "#3A6988", "M 290 535 Q 330 520 345 555 Q 320 580 280 565 Z", 315, 550),
+        ("石", "#3A6988", "M 330 575 Q 375 560 390 595 Q 355 625 315 605 Z", 355, 595),
+        ("石", "#3A6988", "M 170 540 Q 210 525 220 555 Q 195 580 160 565 Z", 190, 550),
+        ("石", "#3A6988", "M 140 595 Q 185 580 195 615 Q 165 640 130 620 Z", 165, 608),
+
+        # --- Soil / Ground (土) ---
+        ("土", "#C59B51", "M 45 470 Q 150 460 215 520 L 160 570 Q 90 530 45 560 Z", 115, 515),
+        ("土", "#C59B51", "M 45 565 Q 130 560 160 630 L 130 710 Q 70 670 45 680 Z", 95, 630),
+        ("土", "#C59B51", "M 285 615 Q 390 600 565 620 L 565 735 Q 390 740 280 735 Z", 425, 675),
+
+        # --- Campfire (火) ---
+        ("火", "#E23E57", "M 115 675 Q 135 640 155 675 Q 165 710 145 725 Q 120 725 115 675 Z", 135, 695),
+    ]
+
+    svg_lines = [
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792" width="612pt" height="792pt">',
+        '  <defs>',
+        '    <style>',
+        '      .stroke-outer { stroke: #000000; stroke-width: 4.5; stroke-linecap: round; stroke-linejoin: round; }',
+        '      .stroke-inner { stroke: #000000; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }',
+        '      .char-label { font-family: "PingFang SC", "Kaiti SC", "SimSun", sans-serif; font-size: 16px; font-weight: bold; fill: #000000; }',
+        '    </style>',
+        '  </defs>',
+        '  <!-- Canvas Background -->',
+        '  <rect width="612" height="792" fill="#FFFFFF"/>',
+        '  <!-- Safe margin boundary guide -->',
+        '  <rect x="40" y="30" width="532" height="725" fill="none"/>',
+    ]
+
+    for i, (char, fill_hex, d_str, cx, cy) in enumerate(paths):
+        sw = "4.5" if (i in [0, 4, 8, 19, 30]) else "2.5"
+        svg_lines.append(f'  <g id="region_{i+1}">')
+        svg_lines.append(f'    <path d="{d_str}" fill="{fill_hex}" stroke="#000000" stroke-width="{sw}" stroke-linecap="round" stroke-linejoin="round"/>')
+        svg_lines.append(f'    <text x="{cx}" y="{cy}" text-anchor="middle" dominant-baseline="central" class="char-label">{char}</text>')
+        svg_lines.append('  </g>')
+
+    svg_lines.append('</svg>')
+    return "\n".join(svg_lines)
+
 def generate_mock_cbn_svg(unit_id: int) -> str:
+    if unit_id == 2:
+        return generate_unit_2_scenic_svg()
+
     """
     Deterministic synthesis of Simple Chunky CBN v1.0 SVG meeting:
     - US Letter (viewBox 0 0 612 792)

@@ -27,6 +27,70 @@ from execution.gemini_generator import load_env_api_key, call_gemini_api
 
 # Canonical etymological templates for core characters
 PICTO_TEMPLATES = {
+    "山": {
+        "metaphor": "三峰并立，中央主峰高耸入云，左右侧峰连绵，底部山脉相连构成山字骨架",
+        "svg": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" rx="24" fill="#F4F8F5"/>
+  <!-- Morning Sun behind peaks (晨曦旭日) -->
+  <circle cx="300" cy="115" r="28" fill="#ECC058" stroke="#864B38" stroke-width="3"/>
+  <!-- Base Mountain Ground (山脉连绵底座 - 山字底横) -->
+  <path d="M 60 270 Q 200 255 340 270 L 340 295 Q 200 285 60 295 Z" fill="#864B38" stroke="#43342E" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Left Peak (左峰 - 山字左竖) -->
+  <path d="M 70 270 L 105 160 Q 120 145 135 160 L 165 270 Z" fill="#559B74" stroke="#2F5D50" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 112 155 Q 120 148 128 155 L 132 170 Q 120 165 108 170 Z" fill="#FFFFFF"/>
+  <!-- Right Peak (右峰 - 山字右竖) -->
+  <path d="M 235 270 L 265 170 Q 280 155 295 170 L 330 270 Z" fill="#559B74" stroke="#2F5D50" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 272 165 Q 280 158 288 165 L 292 180 Q 280 175 268 180 Z" fill="#FFFFFF"/>
+  <!-- Center Main Peak (中央主峰 - 山字中竖) -->
+  <path d="M 150 270 L 182 100 Q 200 75 218 100 L 250 270 Z" fill="#455E57" stroke="#2B3D38" stroke-width="7" stroke-linejoin="round"/>
+  <!-- Center Peak Snow Cap -->
+  <path d="M 188 95 Q 200 85 212 95 L 222 125 Q 200 115 178 125 Z" fill="#FFFFFF"/>
+  <!-- Floating Soft Clouds (月白云带) -->
+  <path d="M 45 205 Q 85 185 125 205 Q 155 190 175 210 Q 115 225 45 215 Z" fill="#D6ECF0" opacity="0.85"/>
+  <path d="M 245 215 Q 285 195 325 215 Q 345 205 355 220 Q 305 235 245 225 Z" fill="#D6ECF0" opacity="0.85"/>
+  <!-- Prominent Character Skeleton Overlay Lines (强调山字骨架) -->
+  <g fill="none" stroke="#2B3D38" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left vertical & bottom horizontal line -->
+    <path d="M 120 160 L 120 270 L 280 270 L 280 170" stroke-width="8"/>
+    <!-- Center vertical line -->
+    <path d="M 200 95 L 200 270" stroke-width="10"/>
+  </g>
+  <!-- Character Badge -->
+  <rect x="150" y="320" width="100" height="60" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="200" y="362" text-anchor="middle" font-size="34" font-weight="bold" fill="#000000">山</text>
+  <text x="200" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#455E57">shān · 高山苍翠</text>
+</svg>"""
+    },
+    "水": {
+        "metaphor": "中间蜿蜒奔流的溪流瀑布构成竖钩，两侧飞溅的水花与水滴构成左右撇捺骨架",
+        "svg": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" rx="24" fill="#F0F8FA"/>
+  <!-- Water Splash Droplets (飞溅水滴) -->
+  <path d="M 85 140 Q 95 120 85 110 Q 75 120 85 140 Z" fill="#00939C"/>
+  <path d="M 315 140 Q 325 120 315 110 Q 305 120 315 140 Z" fill="#00939C"/>
+  <!-- Left Waves & Splash (水字左侧：横撇与撇) -->
+  <path d="M 175 140 Q 120 130 95 160 Q 125 185 165 160 Z" fill="#5AB897" stroke="#00939C" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 175 220 Q 115 210 100 245 Q 135 265 170 235 Z" fill="#00939C" stroke="#3A6988" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Right Waves & Spray (水字右侧：撇与捺) -->
+  <path d="M 225 140 Q 280 130 305 160 Q 275 185 235 160 Z" fill="#5AB897" stroke="#00939C" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 225 215 Q 285 210 305 250 Q 265 275 230 235 Z" fill="#00939C" stroke="#3A6988" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Center Main River Channel (水字中央主竖钩水流) -->
+  <path d="M 200 50 C 215 110 185 170 200 240 Q 200 265 180 270 Q 160 275 145 255" fill="none" stroke="#00939C" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Stream Inner Highlight (湍急银波) -->
+  <path d="M 200 60 C 213 115 187 170 200 235 Q 200 255 185 260" fill="none" stroke="#D6ECF0" stroke-width="10" stroke-linecap="round"/>
+  <!-- Little Swimming Fish (水流中的红色小鱼) -->
+  <ellipse cx="202" cy="165" rx="10" ry="6" fill="#E23E57"/>
+  <polygon points="212,165 222,159 222,171" fill="#E23E57"/>
+  <circle cx="196" cy="163" r="1.5" fill="#FFFFFF"/>
+  <!-- Ripple rings (微波荡漾) -->
+  <ellipse cx="140" cy="275" rx="16" ry="6" fill="none" stroke="#00939C" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <ellipse cx="260" cy="265" rx="18" ry="7" fill="none" stroke="#00939C" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <!-- Character Badge -->
+  <rect x="150" y="320" width="100" height="60" rx="12" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <text x="200" y="362" text-anchor="middle" font-size="34" font-weight="bold" fill="#000000">水</text>
+  <text x="200" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#00939C">shuǐ · 泉水清澈</text>
+</svg>"""
+    },
     "木": {
         "metaphor": "中间一竖为挺拔主树干，上方横撇捺为舒展绿枝叶，下方撇捺为深扎沃土之根系",
         "svg": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">

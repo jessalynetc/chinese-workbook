@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792" width="612pt" height="792pt">
+  <g id="crayon-legend"><rect x="45" y="30" width="32" height="22" rx="4" fill="#EED044" stroke="#000000" stroke-width="1.5" /><text x="61" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">金</text><text x="61" y="75" text-anchor="middle" font-size="8" fill="#555555">秋葵黄</text><rect x="110" y="30" width="32" height="22" rx="4" fill="#559B74" stroke="#000000" stroke-width="1.5" /><text x="126" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">木</text><text x="126" y="75" text-anchor="middle" font-size="8" fill="#555555">荷叶绿</text><rect x="175" y="30" width="32" height="22" rx="4" fill="#00939C" stroke="#000000" stroke-width="1.5" /><text x="191" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">水</text><text x="191" y="75" text-anchor="middle" font-size="8" fill="#555555">翠蓝</text><rect x="240" y="30" width="32" height="22" rx="4" fill="#E23E57" stroke="#000000" stroke-width="1.5" /><text x="256" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">火</text><text x="256" y="75" text-anchor="middle" font-size="8" fill="#555555">朱红</text><rect x="305" y="30" width="32" height="22" rx="4" fill="#C59B51" stroke="#000000" stroke-width="1.5" /><text x="321" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">土</text><text x="321" y="75" text-anchor="middle" font-size="8" fill="#555555">土黄</text><rect x="370" y="30" width="32" height="22" rx="4" fill="#455E57" stroke="#000000" stroke-width="1.5" /><text x="386" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">山</text><text x="386" y="75" text-anchor="middle" font-size="8" fill="#555555">青黛</text><rect x="435" y="30" width="32" height="22" rx="4" fill="#3A6988" stroke="#000000" stroke-width="1.5" /><text x="451" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">石</text><text x="451" y="75" text-anchor="middle" font-size="8" fill="#555555">石青</text><rect x="500" y="30" width="32" height="22" rx="4" fill="#789262" stroke="#000000" stroke-width="1.5" /><text x="516" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#000000">田</text><text x="516" y="75" text-anchor="middle" font-size="8" fill="#555555">竹青</text></g><defs>
+    <style>
+      .stroke-outer { stroke: #000000; stroke-width: 4.5; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-inner { stroke: #000000; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .char-label { font-family: "PingFang SC", "Kaiti SC", "SimSun", sans-serif; font-size: 16px; font-weight: bold; fill: #000000; }
+    </style>
+  </defs>
+  
+  <rect width="612" height="792" fill="#FFFFFF" />
+  
+  <rect x="40" y="30" width="532" height="725" fill="none" />
+  <g id="region_1">
+    <path d="M 480 120 A 32 32 0 1 0 480 184 A 32 32 0 1 0 480 120 Z" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="480" y="152" text-anchor="middle" dominant-baseline="central" class="char-label">火</text>
+  </g>
+  <g id="region_2">
+    <path d="M 430 100 Q 480 80 530 100 L 520 125 Q 480 110 440 125 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="480" y="108" text-anchor="middle" dominant-baseline="central" class="char-label">金</text>
+  </g>
+  <g id="region_3">
+    <path d="M 525 135 L 565 150 L 555 175 L 515 160 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="538" y="155" text-anchor="middle" dominant-baseline="central" class="char-label">金</text>
+  </g>
+  <g id="region_4">
+    <path d="M 390 100 Q 430 140 435 180 L 405 185 Q 400 150 365 120 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="400" y="145" text-anchor="middle" dominant-baseline="central" class="char-label">金</text>
+  </g>
+  <g id="region_5">
+    <path d="M 180 270 L 230 140 Q 255 120 280 140 L 330 270 Z" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="255" y="205" text-anchor="middle" dominant-baseline="central" class="char-label">山</text>
+  </g>
+  <g id="region_6">
+    <path d="M 50 270 L 95 160 Q 120 140 145 160 L 195 270 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="120" y="215" text-anchor="middle" dominant-baseline="central" class="char-label">山</text>
+  </g>
+  <g id="region_7">
+    <path d="M 310 270 L 355 165 Q 380 145 405 165 L 450 270 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="380" y="215" text-anchor="middle" dominant-baseline="central" class="char-label">山</text>
+  </g>
+  <g id="region_8">
+    <path d="M 435 270 L 480 180 Q 500 165 520 180 L 565 270 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="500" y="225" text-anchor="middle" dominant-baseline="central" class="char-label">山</text>
+  </g>
+  <g id="region_9">
+    <path d="M 45 350 Q 110 260 175 350 Q 110 380 45 350 Z" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="110" y="335" text-anchor="middle" dominant-baseline="central" class="char-label">木</text>
+  </g>
+  <g id="region_10">
+    <path d="M 60 420 Q 130 330 200 420 Q 130 450 60 420 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="130" y="400" text-anchor="middle" dominant-baseline="central" class="char-label">木</text>
+  </g>
+  <g id="region_11">
+    <path d="M 180 340 Q 240 270 300 340 Q 240 370 180 340 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="240" y="330" text-anchor="middle" dominant-baseline="central" class="char-label">木</text>
+  </g>
+  <g id="region_12">
+    <path d="M 360 340 Q 420 260 480 340 Q 420 370 360 340 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="420" y="325" text-anchor="middle" dominant-baseline="central" class="char-label">木</text>
+  </g>
+  <g id="region_13">
+    <path d="M 450 350 Q 510 280 570 350 Q 510 380 450 350 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="510" y="340" text-anchor="middle" dominant-baseline="central" class="char-label">木</text>
+  </g>
+  <g id="region_14">
+    <path d="M 430 430 Q 500 350 570 430 Q 500 460 430 430 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="500" y="415" text-anchor="middle" dominant-baseline="central" class="char-label">木</text>
+  </g>
+  <g id="region_15">
+    <path d="M 290 270 Q 320 310 290 350 L 340 360 Q 360 310 330 270 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="315" y="315" text-anchor="middle" dominant-baseline="central" class="char-label">水</text>
+  </g>
+  <g id="region_16">
+    <path d="M 285 350 Q 250 390 280 440 L 330 430 Q 310 390 335 360 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="305" y="395" text-anchor="middle" dominant-baseline="central" class="char-label">水</text>
+  </g>
+  <g id="region_17">
+    <path d="M 275 440 Q 310 480 270 530 L 220 520 Q 250 480 230 440 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="260" y="480" text-anchor="middle" dominant-baseline="central" class="char-label">水</text>
+  </g>
+  <g id="region_18">
+    <path d="M 220 520 Q 180 560 210 610 L 270 600 Q 240 560 270 530 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="240" y="565" text-anchor="middle" dominant-baseline="central" class="char-label">水</text>
+  </g>
+  <g id="region_19">
+    <path d="M 210 610 Q 160 650 180 710 L 245 700 Q 220 650 265 600 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="215" y="655" text-anchor="middle" dominant-baseline="central" class="char-label">水</text>
+  </g>
+  <g id="region_20">
+    <path d="M 180 710 Q 160 745 220 745 L 290 745 Q 260 720 245 700 Z" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="230" y="725" text-anchor="middle" dominant-baseline="central" class="char-label">水</text>
+  </g>
+  <g id="region_21">
+    <path d="M 345 425 L 435 425 L 425 480 L 335 480 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="385" y="452" text-anchor="middle" dominant-baseline="central" class="char-label">田</text>
+  </g>
+  <g id="region_22">
+    <path d="M 435 425 L 525 425 L 515 480 L 425 480 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="475" y="452" text-anchor="middle" dominant-baseline="central" class="char-label">田</text>
+  </g>
+  <g id="region_23">
+    <path d="M 330 485 L 420 485 L 410 545 L 320 545 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="370" y="515" text-anchor="middle" dominant-baseline="central" class="char-label">田</text>
+  </g>
+  <g id="region_24">
+    <path d="M 420 485 L 510 485 L 500 545 L 410 545 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="460" y="515" text-anchor="middle" dominant-baseline="central" class="char-label">田</text>
+  </g>
+  <g id="region_25">
+    <path d="M 290 535 Q 330 520 345 555 Q 320 580 280 565 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="315" y="550" text-anchor="middle" dominant-baseline="central" class="char-label">石</text>
+  </g>
+  <g id="region_26">
+    <path d="M 330 575 Q 375 560 390 595 Q 355 625 315 605 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="355" y="595" text-anchor="middle" dominant-baseline="central" class="char-label">石</text>
+  </g>
+  <g id="region_27">
+    <path d="M 170 540 Q 210 525 220 555 Q 195 580 160 565 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="190" y="550" text-anchor="middle" dominant-baseline="central" class="char-label">石</text>
+  </g>
+  <g id="region_28">
+    <path d="M 140 595 Q 185 580 195 615 Q 165 640 130 620 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="165" y="608" text-anchor="middle" dominant-baseline="central" class="char-label">石</text>
+  </g>
+  <g id="region_29">
+    <path d="M 45 470 Q 150 460 215 520 L 160 570 Q 90 530 45 560 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="115" y="515" text-anchor="middle" dominant-baseline="central" class="char-label">土</text>
+  </g>
+  <g id="region_30">
+    <path d="M 45 565 Q 130 560 160 630 L 130 710 Q 70 670 45 680 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="95" y="630" text-anchor="middle" dominant-baseline="central" class="char-label">土</text>
+  </g>
+  <g id="region_31">
+    <path d="M 285 615 Q 390 600 565 620 L 565 735 Q 390 740 280 735 Z" fill="#FFFFFF" stroke="#000000" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="425" y="675" text-anchor="middle" dominant-baseline="central" class="char-label">土</text>
+  </g>
+  <g id="region_32">
+    <path d="M 115 675 Q 135 640 155 675 Q 165 710 145 725 Q 120 725 115 675 Z" fill="#FFFFFF" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="135" y="695" text-anchor="middle" dominant-baseline="central" class="char-label">火</text>
+  </g>
+</svg>
